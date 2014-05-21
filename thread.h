@@ -15,7 +15,7 @@ public:
 	virtual void run() = 0; //线程的运行实体，派生类必须实现该函数
 	bool start();
 	pthread_t getThreadID();
-	int getStatus(); //获取线程状态
+	int getThreadStatus(); //获取线程状态
 	void join(); //等待线程直至退出
 	void join(unsigned long millisTime); //等待线程退出或者超时
 

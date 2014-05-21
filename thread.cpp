@@ -22,7 +22,7 @@ pthread_t Thread::getThreadID() {
 	return tid;
 }
 
-int Thread::getStatus() {
+int Thread::getThreadStatus() {
 	return threadStatus;
 }
 
